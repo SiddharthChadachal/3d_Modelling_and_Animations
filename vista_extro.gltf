@@ -1,0 +1,111 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Text",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                3.214226245880127,
+                3.214226245880127,
+                3.214226245880127
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Text",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 5048,
+            "max" : [
+                3.425943374633789,
+                0.14999999105930328,
+                0
+            ],
+            "min" : [
+                0,
+                -0.14999999105930328,
+                -0.4716981053352356
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 5048,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 5048,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 9924,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 60576,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 60576,
+            "byteOffset" : 60576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 40384,
+            "byteOffset" : 121152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19848,
+            "byteOffset" : 161536
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 181384,
+            "uri" : "vista_extro.bin"
+        }
+    ]
+}
